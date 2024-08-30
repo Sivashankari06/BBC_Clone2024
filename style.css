@@ -1,0 +1,124 @@
+
+
+  @media (min-width: 601px){
+    img{
+        width:80%;
+        height:40%; 
+        float: left;
+        padding: 0px 20px;    
+      }
+      
+      .logo{
+        font-size: 30px;
+        font-weight: bold;
+        display: inline;
+      }
+      
+      nav{
+        border-bottom: 1px solid red;
+        text-align: center;
+        padding: 10px 0px;
+        margin: 20px 0px;
+      }
+      
+      nav ul {
+        display:inline;  
+      }
+      
+      ul{
+        padding: 0px;
+      }
+      ul li {  
+        text-align: center;
+        padding: 10px;
+        display: inline;
+        padding: 0px 25px;
+        font-size: 20px;
+      }
+      
+      .footer{
+        position:fixed;
+        text-align:center;
+        width:100%;
+        bottom: 0;
+        padding: 20px 0px;
+      }
+    
+      .footer p {
+        display: inline;
+      }
+    
+      .align-left{
+        display: inline;
+        float: left;
+        padding: 0px 50px;
+      }
+    
+      .container{
+        width:100%;
+      }
+    
+      .img-sec{
+        width:30%;
+        margin-top: 80px;
+      }
+    
+    
+      .para-sec{
+        margin-top: 80px;
+        text-align: justify;
+        width: 68%;
+      }
+      .article-link{
+        right: 0;
+        top: 0;
+        width: 30%;
+        position: absolute;
+        border: 1px solid black;
+        height: 60%;
+        margin-top: 120px;
+        text-align: center;
+      }
+  }
+
+  
+  @media (max-width: 600px){
+
+    body{
+        text-align: -webkit-center;
+    }
+
+    .align-left{
+        display: contents;
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    ul{
+        display: grid;
+        list-style: none;
+        padding: 0px;
+        font-size: 1.2em;
+    }
+    img{
+        width:80%;
+        height:40%;        
+        float: center;
+        padding: 0px 20px;
+      }
+      .para-sec{
+        text-align: justify;
+      }
+      .article-link{
+        border: 1px solid black;
+        height: 80%;
+        width: 80%;
+      }
+
+      input{
+        width: 80%;
+      }
+
+      button{
+        margin:20px;
+      }
+  }

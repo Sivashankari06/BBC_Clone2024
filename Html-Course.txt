@@ -1,0 +1,81 @@
+28-08-2024:
+elements
+inline tags - <em><span>
+void tags - <input /><br/><hr/><img/>
+attributes - href src target "_blank"(new web page) alt
+grouping - using class
+unique - id 
+forms
+table
+media queries
+
+HTML Key Takeaways & Cheatsheet - Print This & Post It On Your Wall
+In this video I will recap all the HTML you have learned.
+
+Structure of webpage
+nested tags
+semantic tags
+classes
+ids
+text
+paragraphs
+headings
+inline tags
+lists
+ordered
+unordered
+void tags
+img
+attributes
+input for forms
+tables
+links
+anchors
+inbound
+outbound
+Congratulations! You really have learned a lot and can now make a wide variety of websites as well as fix HTML errors on other peoples' websites.
+
+Next you will complete the HTML final and then move on to learning how to make your HTML pleasing to the eye by using CSS.
+
+29:08:2024
+
+css 
+class
+id
+div
+hirerachy
+text-align
+color
+background-color
+font-family
+font-weight
+measurements
+px em %
+box-model
+border box reset
+html{
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing:inherit;
+}
+
+position
+absolute
+relative
+fixed
+clearfix solutions - check
+css reset:
+responsive website
+media queries and (min-width:900px){
+ color:red;
+}
+
+media queries and (max-width:900px){
+ color:black;
+}
+
+css framework: bootstrap, purecss, semantic css
+https://learnlayout.com/frameworks
+
